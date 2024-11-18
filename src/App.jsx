@@ -13,6 +13,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Legacy />} />
         <Route path="/legacy" element={<Legacy />} />
         <Route path="/datascience" element={<Datascience />} />
         <Route path="/webproject" element={<Webproject />} />
