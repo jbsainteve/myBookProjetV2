@@ -20,7 +20,7 @@ const Form = ({ projets }) => {
   return (
     <div className="form-component">
       <div className="form-container">
-        <form>
+        {/* <form>
           <input
             type="text"
             placeholder="Mots-clés ..."
@@ -28,7 +28,7 @@ const Form = ({ projets }) => {
             onChange={(e) => setSearch(e.target.value)}
           />
           <input type="submit" value="Rechercher" />
-        </form>
+        </form> */}
 
         <div className="btn-sort-container">
           {/* <div

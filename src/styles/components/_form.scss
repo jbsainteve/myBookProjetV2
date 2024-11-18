@@ -1,8 +1,11 @@
 .form-component {
+  
   .form-container {
+    // opacity: 0;
     text-align: center;
   }
   form {
+    //opacity: 30;
     width: 300px;
     margin: 0 auto;
 
@@ -35,7 +38,7 @@
     }
   }
   .btn-sort-container {
-    margin: 8px auto;
+    margin: 30px auto;
     width: 220px;
     display: flex;
     justify-content: space-around;

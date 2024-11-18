@@ -8,12 +8,13 @@ import Publications from "./pages/Publications";
 import Certifications from "./pages/Certifications";
 import About from "./pages/About";
 import "./styles/index.scss";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Legacy />} />
+        <Route path="/" element={<Home />} />
         <Route path="/legacy" element={<Legacy />} />
         <Route path="/datascience" element={<Datascience />} />
         <Route path="/webproject" element={<Webproject />} />
