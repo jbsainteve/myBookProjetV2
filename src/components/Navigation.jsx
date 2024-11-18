@@ -7,6 +7,12 @@ const Navigation = () => {
       <nav>
         <ul>
           <NavLink
+            to="/"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <li>Home</li>
+          </NavLink>
+          <NavLink
             to="/legacy"
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
